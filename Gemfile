@@ -36,6 +36,7 @@ group :development do
 end
 
 group :test do
+  gem 'minitest-optional_retry', '~> 0.0.2'
   gem 'simplecov', '~> 0.16.1'
 end
 
